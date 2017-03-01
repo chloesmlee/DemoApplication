@@ -1,0 +1,123 @@
+﻿body {
+    font-size :10px;
+    margin:0 auto;
+    font-family: sans-serif;
+}
+
+.right {
+    float:right;
+}
+
+.clear {
+    clear:both;
+}
+
+th {
+    background-color: #4f92ff;
+    color: white;
+    border: 1px solid #ffffff;
+    text-transform:uppercase;
+    font-size:9px;
+    letter-spacing:1px;
+    font-weight:700;
+}
+
+td { 
+    padding:6px 8px !important;
+    border: 1px solid #ffffff;
+    font-size:8px;
+}
+
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd){
+    background-color: #e4eeff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #2174ff; /*blue*/
+    -webkit-transition: all 3s; /* For Safari 3.1 to 6.0 */
+    transition: all .3s;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: #2174ff; /*blue*/
+    font-size:19px;
+    padding-right:7px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#2e323b;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:#2174ff;
+}
+
+.navbar-inverse, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color:#ffffff
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color:#ffffff;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color:#ccc;
+} 
+
+.btn {
+    text-transform:uppercase;
+    outline:0;
+    font-size:.6875em;
+    text-align:center;
+    letter-spacing:1px;
+    font-weight:700;
+    -webkit-transition: all 3s; /* For Safari 3.1 to 6.0 */
+    transition: all .3s;
+}
+
+.btn-lg {
+    color:#ffffff;
+    border-color:#2174ff;
+    background-color:#2174ff;
+    border-radius: 0px;
+}
+
+.btn-default {
+    color:#ffffff;
+    border-color:#ff4366;
+    background-color:#ff4366;
+    border-radius: 0px;
+}
+
+.btn:hover {
+    color:#ffffff;
+    border-color:#282828;
+    background-color:#282828;
+    border-radius: 0px;
+}
+
+.hover-red:hover {
+    background-color:#ff4366;
+    border-color:#ff4366;
+}
+
+.hover-blue:hover {
+    background-color:#2174ff;
+    border-color:#2174ff;
+}
+
+.form-control {
+    height:25px;
+    border-radius:0px;
+    font-size:11px;
+    padding:6px;
+}
+
+.form-group>label {
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
